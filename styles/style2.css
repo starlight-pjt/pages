@@ -1,0 +1,144 @@
+﻿@import url("layout.css");
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-attachment: scroll;
+	background-color: #90b7f1;
+	background-image: url("../images/background.gif");
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+#container {
+	width: 100%;
+	margin-top: 57px;
+	border-bottom: 2px solid #358;
+	background-color: #fff;
+}
+#masthead {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+#navigation {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	overflow: hidden;
+}
+#page_content {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#content {
+	position: relative;
+	float: left;
+	width: 290px;
+	padding-top: 7px;
+	text-align: left;
+}
+#sidebar {
+	float: right;
+	width: 350px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+#footer {
+	clear: both;
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 5px;
+	text-align: left;
+}
+/* Masthead Styles */
+#masthead h1 {
+	font-weight: normal;
+	color: #191970;
+	text-transform: uppercase;
+	display: inline;
+}
+#masthead h3 {
+	bottom: 0;
+	font-weight: normal;
+	color: #b22222;
+	display: inline;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+/* Navigation Styles */
+#navigation ul {
+	list-style-type: none;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	text-decoration: none;
+	color: #b22222;
+	display: block;
+	margin: 0 1px;
+	padding: 5px;
+	border: 1px solid #708090;
+	background-color: #eee8aa;
+}
+#navigation a:hover {
+	text-decoration: none;
+	color: #800000;
+	background-color: #d0dffa;
+}
+/* Content Styles */
+#content h1,h2,h3,h4,h5,h6 {
+	color: #b22222;
+}
+#content img {
+	padding: 5px;
+	border: 1px solid #358;
+}
+/* Sidebar Styles */
+#sidebar p {
+	color: #222;
+}
+#sidebar img {
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+/* Footer Styles */
+#footer p {
+	font-size: 0.85em;
+	color: #808080;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer a {
+	color: #47b;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #237;
+	text-decoration: none;
+}
+/* Link Styles */
+a {
+	color: #191970;
+	text-decoration: underline;
+}
+a:hover {
+	color: #800000;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
